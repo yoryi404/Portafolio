@@ -1,0 +1,24 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+header{
+  color: #1D1D1D;
+  font-family: Serif Text;
+  background-color: #C7762E;
+  text-align: center;
+}
+main{
+  background-color: #E2E2E2;
+}
+h1{
+ font-size: 48px; 
+}
+
+footer{
+
+}
