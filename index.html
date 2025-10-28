@@ -1,33 +1,113 @@
 <!DOCTYPE html>
-<html lang='es'>
+<html lang="es">
 
 <head>
-  <meta charset='UTF-8'>
-  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
-  <link rel='stylesheet' href='./Portafolio/Disenio/style.css'>
-  <script type="module" src='./Portafolio/Disenio/script.js' defer></script>
-  <title>Portafolio</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portafolio - Jorge_Alegre</title>
+  <link rel="stylesheet" href="./Portafolio/Disenio/style.css" />
 </head>
 
 <body>
   <header>
-    <img src="/Portafolio/imagenes/Imagen_Corporativa.png" id="imagencorporativa" alt="Imagen_Corporativa">
-    <h1>Jorge_Alegre</h1>
+    <div class="logo">
+      <img src="Portafolio\imagenes\Imagen_Corporativa.png" alt="Logo" />
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">Sobre mí</a></li>
+        <li><a href="#projects">Proyectos</a></li>
+        <li><a href="#contact">Contacto</a></li>
+      </ul>
+    </nav>
   </header>
-  <br>
-  <main>
-    <section>
-      <a href="https://github.com/yoryi404/Gestion_De_Fechas.git" target="_blank"> <img
-          src="/imagenes/Gestion_De_Fechas.png" alt="Proyecto_Gestion_Fechas"></a>
-    </section>
-  </main>
-<br>
-  <footer>
-    <a href="https://www.figma.com/design/3prEfG0sxFAlz3WeTnwYy0/Gu%C3%ADa-de-estilos?node-id=0-1&t=RNtUtbfBiI7MBZvU-1"
-      target="_blank"><img src="/imagenes/iconoFigma.png" alt="Icono de figma"></a><br>
+  <hr>
+  <section id="about" class="about">
+    <div class="about-container">
+      <div class="profile-pic">
+        <img src="Portafolio\imagenes\person-icon-lg.png" alt="Foto de perfil" />
+      </div>
+      <div class="about-text">
+        <h2>Sobre mí</h2>
+        <p>
+          ¡Hola! Soy Jorge Alegre, un desarrollador web apasionado por el diseño limpio y funcional.
+          Me especializo en HTML, CSS y JavaScript, y disfruto creando experiencias web intuitivas y modernas.
+        </p>
+      </div>
+    </div>
+  </section>
 
-    <a href="https://github.com/yoryi404" target="_blank"><img src="./imagenes/iconoGitHub.png"
-        alt="Icono de GitHub"></a><br>
+  <section id="projects" class="projects">
+    <h2>Proyectos</h2>
+    <div class="projects-grid">
+
+      <div class="project-card">
+        <div class="project-img"></div>
+        <div class="project-info">
+          <h3>Proyecto 1</h3>
+          <p>Aplicación para gestión de fechas desarrollada con HTML, CSS y JavaScript.</p>
+          <div class="tech-icons">
+            <img src="Portafolio\imagenes\HTML.png" alt="HTML" />
+            <img src="Portafolio\imagenes\CSS.png" alt="CSS" />
+            <img src="Portafolio\imagenes\JS.webp" alt="JS" />
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-img"></div>
+        <div class="project-info">
+          <h3>Proyecto 2</h3>
+          <p>Un sitio web de portafolio con diseño adaptable y navegación fluida.</p>
+          <div class="tech-icons">
+            <img src="Portafolio\imagenes\HTML.png" alt="HTML" />
+            <img src="Portafolio\imagenes\CSS.png" alt="CSS" />
+            <img src="Portafolio\imagenes\JS.webp" alt="JS" />
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-img"></div>
+        <div class="project-info">
+          <h3>Proyecto 3</h3>
+          <p>Interfaz de usuario moderna y limpia para aplicaciones web.</p>
+          <div class="tech-icons">
+            <img src="Portafolio\imagenes\HTML.png" alt="HTML" />
+            <img src="Portafolio\imagenes\CSS.png" alt="CSS" />
+            <img src="Portafolio\imagenes\JS.webp" alt="JS" />
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-img"></div>
+        <div class="project-info">
+          <h3>Proyecto 4</h3>
+          <p>Proyecto interactivo enfocado en animaciones web y efectos visuales.</p>
+          <div class="tech-icons">
+            <img src="Portafolio\imagenes\HTML.png" alt="HTML" />
+            <img src="Portafolio\imagenes\CSS.png" alt="CSS" />
+            <img src="Portafolio\imagenes\JS.webp" alt="JS" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <hr>
+  <footer>
+    <h2><u>Contacto</u></h2>
+    <br>
+    <div class="contact-icons">
+      <a href="https://github.com/yoryi404" target="_blank"><img src="Portafolio/imagenes/icono_Github.png"
+          alt="GitHub"></a>
+      <a href="https://www.linkedin.com" target="_blank"><img
+          src="Portafolio\imagenes\icono_linkedin.png" alt="LinkedIn"></a>
+      <a href="jalegrem04@iesalbarregas.es"><img
+          src="Portafolio\imagenes\icono_correo.png" alt="Correo"></a>
+    </div>
+    <br>
   </footer>
 </body>
 
